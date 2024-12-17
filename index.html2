@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo de Senha</title>
+</head>
+<body>
+    <h2>Campo de senha</h2>
+
+    <p>O campo de entrada <strong>type="password"</strong> define um campo de senha:</p>
+    
+    <form action="#">
+        <label for="username">Nome de usuário:</label><br>
+        <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário"><br><br>
+        
+        <label for="pwd">Senha:</label><br>
+        <input type="password" id="pwd" name="pwd" placeholder="Digite sua senha"><br><br>
+        
+        <input type="submit" value="Confirmar">
+    </form>
+
+    <p>Os caracteres em um campo de senha são mascarados (exibidos como asteriscos ou círculos).</p>
+</body>
+</html>

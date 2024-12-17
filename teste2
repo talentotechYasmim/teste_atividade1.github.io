@@ -1,6 +1,0 @@
-git init
-git add index.html
-git commit -m "Adicionando página HTML"
-git remote add origin https://github.com/seu-usuario/campo-senha-site.git
-git push -u origin master
-
